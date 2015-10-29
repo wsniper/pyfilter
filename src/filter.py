@@ -11,10 +11,11 @@
     只使用用户自定义规则。
 """
 import re
-import sqlalchemy
-from sqlalchemy import create_engine
-from sqlalchemy import Column, Integer, String
-from sqlalchemy import func
+# 暂时不用
+# import sqlalchemy
+# from sqlalchemy import create_engine
+# from sqlalchemy import Column, Integer, String
+# from sqlalchemy import func
 
 # Exception
 class FilterRuleValueError(Exception):
